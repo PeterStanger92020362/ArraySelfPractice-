@@ -15,7 +15,25 @@ public class ArraySelfPractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String[] flavours = new String[4];
+        
+        flavours[0] = "chocolate";
+        flavours[1] = "banana";
+        flavours[2] = "orange";
+        flavours[3] = "vanilla";
+        
+        
+        for ( String each : flavours ){
+            System.out.println(each);
+        }
+        
+        int[] numberArray = new int[50];
+        
+        for ( int i = 0; i < 49; i++){
+            numberArray[i]= i * 48;
+            System.out.println(numberArray[i]);
+        }
+        
     }
     
 }
